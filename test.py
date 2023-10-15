@@ -1,1 +1,1 @@
-print("Helloo! This is youe slave... how would you like to be trated master.")
+print("Helloo! How's the weather")
