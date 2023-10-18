@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/",methods=['GET', 'POST'])
 def index():
-    return "Hey, this is my first ML Project"
+    return "CI CD pipeline has been established."
 
 
 if __name__=="__main__":
