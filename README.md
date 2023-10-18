@@ -11,7 +11,7 @@
 
 Creating conda environment
 ```
-conda create -p venv python==3.10.13 -y
+conda create -n venv python==3.10.13 -y
 ```
 ```
 conda activate venv/
