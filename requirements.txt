@@ -4,4 +4,3 @@ gunicorn
 typing
 scikit-learn
 pandas
--e .
