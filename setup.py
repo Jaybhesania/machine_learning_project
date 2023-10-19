@@ -18,7 +18,7 @@ def get_requirements_list()->List[str]:
     of libraries mentioned in the requirements.txt file
     """
     with open(REQUIREMENTS_FILE_NAME) as requirement_file:
-        return requirement_file.read().splitlines()
+        return requirement_file.read().splitlines().remove("-e .")
 
 
 setup(
