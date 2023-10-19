@@ -11,7 +11,7 @@
 
 Creating conda environment
 ```
-conda create -n venv python==3.10.13 -y
+conda create -p venv python==3.10.13 -y
 ```
 ```
 conda activate venv/
@@ -91,4 +91,9 @@ docker ps
 To stop docker container
 ```
 docker stop <container_id>
+```
+
+
+```
+python setup.py install
 ```
