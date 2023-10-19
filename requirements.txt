@@ -1,2 +1,6 @@
-flask
+numpy
+Flask
 gunicorn
+typing
+scikit-learn
+pandas
