@@ -1,7 +1,9 @@
 numpy
 flask
 gunicorn
-typing
 scikit-learn
 pandas
--e .
+PyYAML
+evidently
+dill
+matplotlib
